@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushraf</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1271297879.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/M.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Muhammed Mushraf</span><br> From India</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ------------------------------------------------ABOUT------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutme.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Mushraf, a Software Engineer based in Kerala, India. I specialize in building and
+                        customizing Odoo-ERP modules and full-stack applications. With extensive experience in these
+                        areas, I've developed a range of solutions that enhance business efficiency and drive
+                        innovation. I am passionate about leveraging technology to solve complex problems and
+                        continuously improving my skills. Whether working on ERP systems or web applications, I thrive
+                        on the challenge of turning ideas into reality.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Educations</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificates</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language</span><br>Python <br>JavaScript</li>
+                            <li><span>Web Technologies</span><br>Html5 <br>CSS3 <br>Bootstrap</li>
+                            <li><span>Web Frameworks</span><br>Django <br>Django Rest Framework</li>
+                            <li><span>Database</span><br>PostgreSQL <br>MySQL</li>
+                            <li><span>Data Formats</span><br>XML</li>
+                            <li><span>Version Control</span><br>Git <br>GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Odoo Developer-Trainee</span><br>Digitz
+                                Technologies,Calicut,Kerala,India <br>August 2023 - December 2023</li>
+                            <li><span>Odoo Developer-Internship</span><br>Foxiom Leads PVT
+                                LTD,Kinfra IT Park,Kerala,India <br>Febuary 2023 - May 2023 </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BCA from Pondicherry University</span><br>August 2019 - September 2022</li>
+                            <li><span>Higher Secondary Education from NAM
+                                    HSS,Peringathur</span><br>June 2017 - March 2019</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificate">
+                        <ul>
+                            <li><span>Pyhton Web Development</span><br>Luminar Technolab, kochi, India</li>
+                            <li><span>Odoo Technical Training</span><br>Udemy </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------services----------------------------------------- -->
+
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>
+                        Web Design
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas et nihil labore ipsam qui.
+                        Dolore saepe placeat error commodi repellat doloremque deserunt quasi earum at omnis blanditiis,
+                        esse, iusto quod.</p>
+                    <a href="#">learn more
+
+                    </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>
+                        ui/ux Design
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas et nihil labore ipsam qui.
+                        Dolore saepe placeat error commodi repellat doloremque deserunt quasi earum at omnis blanditiis,
+                        esse, iusto quod.</p>
+                    <a href="#">learn more
+
+                    </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>
+                        android Design
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas et nihil labore ipsam qui.
+                        Dolore saepe placeat error commodi repellat doloremque deserunt quasi earum at omnis blanditiis,
+                        esse, iusto quod.</p>
+                    <a href="#">learn more
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- -------------------------------------------Portfolio--------------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/odoo-apps.png" alt="">
+                    <div class="layer">
+                        <h3>CRM Leads Report | Odoo-ERP</h3>
+                        <p>Generate comprehensive reports on sales leads.Produces both PDF and Excel reports detailing
+                            the total number of won and lost leads for each user.
+                        </p>
+                        <a href="https://github.com/muhammed-mushraf/Odoo-ERP_leads_Reports.git"><i
+                                class="fa-solid fa-up-right-from-square fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/odoo-apps.png" alt="">
+                    <div class="layer">
+                        <h3>Assigned Leads Notification | Odoo-ERP</h3>
+                        <p>Developed a feature to display and notify users of their assigned leads count directly in the
+                            navbar,and navaigates to the specific leads
+                        </p>
+                        <a href="https://github.com/muhammed-mushraf/Assigned_leads--Odoo-ERP.git"><i
+                                class="fa-solid fa-up-right-from-square fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/django.png" alt="">
+                    <div class="layer">
+                        <h3>Tweet App | Django </h3>
+                        <p>Developed a social media web application allowing users to share updates (similar to tweets)
+                            and comment on any tweets. </p>
+                        <a href="https://github.com/muhammed-mushraf/TweeetAPpp-Django.git"><i
+                                class="fa-solid fa-up-right-from-square fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/django.png" alt="">
+                    <div class="layer">
+                        <h3>Ecom Store | Django</h3>
+                        <p>An e-commerce web application that enables users to browse and purchase a wide range of
+                            products with ease. </p>
+
+                        <a href="https://github.com/muhammed-mushraf/Ecom_Store--Django-.git"><i
+                                class="fa-solid fa-up-right-from-square fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/muhammed-mushraf" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ---------------------------Contact-------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>mushrafalitm@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9539840277</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-twitter-square"></i></a> -->
+                    </div>
+                    <a href="images/Mushraf M.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="message">Leave a Message</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright &copy; Muhammed Mushraf <i class="fa-solid fa-heart"></i>
+            </p>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = '0';
+        }
+        function closemenu() {
+            sidemenu.style.right = '-200px';
+        }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxW2l_U7Kdxz9IEPzJSADISGklTKw5Nb54uQn4DujTXCJKSuoL_iI2q0eFUsBUmqhHt0A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("message")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
